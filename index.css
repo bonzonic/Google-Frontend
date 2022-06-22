@@ -2,24 +2,3 @@ body {
   background-color: black;
   color: white;
 }
-
-#website-container {
-  display: flex;
-}
-
-#center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  text-align: center;
-}
-
-#top {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-
-#google {
-  text-align: center;
-}/*# sourceMappingURL=index.css.map */
