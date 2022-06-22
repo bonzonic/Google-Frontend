@@ -1,9 +1,28 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 body {
     background-color: black;
+    color: white;
 }
 
-#top-left {
+#website-container {
+    display: flex;
+    justify-items;
+}
+
+#center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+
+#top {
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+#google {
+    text-align: center;
 }

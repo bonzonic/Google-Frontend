@@ -3,26 +3,34 @@
     <head>
         <title>Search</title>
         <link href="index.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="hidden" name="sxsrf" value="ALiCzsbEwYcSbOgV1odtznL9Rh0G2n-gNw%3A1655864902317">
-            <input type="hidden" name="source" value="hp">
-            <input type="hidden" name="ei" value="Rn6yYpu6Ee6B1e8PzviCqAY">
-            <input type="hidden" name="iflsig" value="AJiK0e8AAAAAYrKMVkMkxp9B-_hBx0maCHiCuUNCzoSO">
-            <input type="hidden" name="ved" value="0ahUKEwib9a-6gcD4AhXuQPUHHU68AGUQ4dUDCAc">
-            <input type="hidden" name="uact" value="5">
-            <!-- not sure how to settle this oq thing -->
-            <input type="hidden" name="oq" value="???">  
-            <input type="hidden" name="gs_lcp" value="Cgdnd3Mtd2l6EAMyBAgjECcyBAguEEMyCAguEIAEELEDMgsIABCABBCxAxCDATIKCAAQgAQQhwIQFDIFCC4QgAQyCwgAEIAEELEDEIMBMgUIABCABDIFCAAQgAQyBQgAEIAEOgQILhAnOgQIABBDOgcILhDUAhBDOgcILhCxAxBDOgoILhCxAxCDARBDUPDUAliQ2wJgz-cCaANwAHgAgAFWiAHYA5IBATeYAQCgAQGwAQo">
-            <input type="hidden" name="sclient" value="gws-wiz">
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
-        </form>
-        <div id="top-left">
-            <a href="image-search.html"><button>Image Search</button></a>
-            <a href="advanced-search.html"><button>Advanced Search</button></a>
+        <div id="website-container">
+            <div id="top">
+                <a href="image-search.html"><button>Image Search</button></a>
+                <a href="advanced-search.html"><button>Advanced Search</button></a>
+            </div>
+            <div id="google">
+                Google
+            </div>
+            <div id="center">
+                <form action="https://www.google.com/search">
+                    <input type="text" name="q">
+                    <input type="hidden" name="sxsrf" value="ALiCzsbEwYcSbOgV1odtznL9Rh0G2n-gNw%3A1655864902317">
+                    <input type="hidden" name="source" value="hp">
+                    <input type="hidden" name="ei" value="Rn6yYpu6Ee6B1e8PzviCqAY">
+                    <input type="hidden" name="iflsig" value="AJiK0e8AAAAAYrKMVkMkxp9B-_hBx0maCHiCuUNCzoSO">
+                    <input type="hidden" name="ved" value="0ahUKEwib9a-6gcD4AhXuQPUHHU68AGUQ4dUDCAc">
+                    <input type="hidden" name="uact" value="5">
+                    <!-- not sure how to settle this oq thing -->
+                    <input type="hidden" name="oq" value="???">  
+                    <input type="hidden" name="gs_lcp" value="Cgdnd3Mtd2l6EAMyBAgjECcyBAguEEMyCAguEIAEELEDMgsIABCABBCxAxCDATIKCAAQgAQQhwIQFDIFCC4QgAQyCwgAEIAEELEDEIMBMgUIABCABDIFCAAQgAQyBQgAEIAEOgQILhAnOgQIABBDOgcILhDUAhBDOgcILhCxAxBDOgoILhCxAxCDARBDUPDUAliQ2wJgz-cCaANwAHgAgAFWiAHYA5IBATeYAQCgAQGwAQo">
+                    <input type="hidden" name="sclient" value="gws-wiz">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
+                </form>
+            </div>
         </div>
     </body> 
 </html>
