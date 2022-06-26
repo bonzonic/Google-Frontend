@@ -5,4 +5,13 @@ body {
 
 .bigger-text {
   font-size: 100px;
+}
+
+div a {
+  text-decoration: none;
+  color: black;
+}
+div a:hover {
+  text-decoration: underline;
+  color: black;
 }/*# sourceMappingURL=index.css.map */
