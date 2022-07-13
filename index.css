@@ -14,4 +14,9 @@ div a {
 div a:hover {
   text-decoration: underline;
   color: black;
+}
+
+.advanced {
+  color: red;
+  font-size: larger;
 }/*# sourceMappingURL=index.css.map */
