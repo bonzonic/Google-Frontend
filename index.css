@@ -3,7 +3,7 @@ body {
   color: white;
 }
 
-.bigger-text {
+.google-text {
   font-size: 100px;
 }
 
@@ -16,7 +16,6 @@ div a:hover {
   color: black;
 }
 
-.advanced {
+.advanced-color {
   color: red;
-  font-size: larger;
 }/*# sourceMappingURL=index.css.map */
