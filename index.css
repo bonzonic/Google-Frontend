@@ -18,4 +18,15 @@ div a:hover {
 
 .advanced-color {
   color: red;
+}
+
+.big-text {
+  font-size: larger;
+}
+
+.advanced-search-button {
+  color: white;
+  background-color: #008AD8;
+  border: blue;
+  font-weight: bold;
 }/*# sourceMappingURL=index.css.map */
