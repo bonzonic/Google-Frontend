@@ -1,4 +1,4 @@
-# Project-0
+# Google Frontend
 CS50W Project 0
 
 A front end for Google Search, Google Image Search, and Google Advanced Search.
